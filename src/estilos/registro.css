@@ -1,0 +1,66 @@
+.contenedor-reg {
+    border: solid 3px  purple;
+    width:100%;
+    max-width: 500px;
+    margin: 0px auto;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    box-shadow: 0px 0px 10px #ccc;
+    color: #555;
+    border-radius: 5px;
+    background-color: rgba(168, 101, 201, 0.527);
+}
+
+.titulo{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.logo-reg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.caja-correo, .caja-password, .caja-nombre{
+    font-size: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px plum;
+    outline: none;
+    margin-top: 10px;
+}
+
+input::placeholder{
+    color:#ccc;
+}
+
+.agrupador-correo, .agrupador-password{
+    margin-top: 20px;
+}
+
+.agrupador-boton{
+    margin-top: 30px;
+}
+
+.boton-ingresar {
+    font-size: 30px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.otros-botones {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.link-registro, .link-password {
+    color:#000000;
+    display: block;
+}
